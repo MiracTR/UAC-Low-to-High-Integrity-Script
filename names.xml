@@ -1,0 +1,35 @@
+<RpcServerNameData 
+   xmlns="http://schemas.datacontract.org/2004/07/NtObjectManager">
+  <InterfaceId>201ef99a-7fa0-444c-9399-19ba84f12a1a</InterfaceId>
+  <InterfaceMajorVersion>1</InterfaceMajorVersion>
+  <InterfaceMinorVersion>0</InterfaceMinorVersion>
+  <Procedures>
+    <NdrProcedureNameData>
+      <Index>0</Index>
+      <Name>RAiLaunchAdminProcess</Name>
+      <Parameters>
+        <NdrProcedureParameterNameData>
+          <Index>10</Index>
+          <Name>ProcessInformation</Name>
+        </NdrProcedureParameterNameData>
+      </Parameters>
+    </NdrProcedureNameData>
+  </Procedures>
+  <Structures>
+  <NdrStructureNameData>
+      <Index>0</Index>
+      <Members/>
+      <Name>APP_STARTUP_INFO</Name>
+    </NdrStructureNameData>
+    <NdrStructureNameData>
+      <Index>2</Index>
+      <Members>
+        <NdrStructureMemberNameData>
+          <Index>0</Index>
+          <Name>ProcessHandle</Name>
+        </NdrStructureMemberNameData>
+      </Members>
+      <Name>APP_PROCESS_INFORMATION</Name>
+    </NdrStructureNameData>
+  </Structures>
+</RpcServerNameData>
